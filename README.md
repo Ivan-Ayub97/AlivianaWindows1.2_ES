@@ -6,11 +6,12 @@ Developed by **Iván Ayub**
 
 **AlivianaWindows** is an all-in-one tool designed to optimize the performance and health of Windows systems. It combines essential maintenance commands with a user-friendly console-based interface to simplify system care and management.
 
-[Click here to download the application (.zip)](https://example.com/download)
+[Click here to download the application from Google Drive (.zip)]([https://example.com/download](https://drive.google.com/file/d/1rH1N3V4qNefDXG0qIn2aAW1EDLhYPMH7/view?usp=sharing))
 
 For inquiries or feedback, contact me at: [Iván Ayub](sellocasadenubes@gmail.com).
 
 ---
+![NextMask FFmpeg Icon](AlivianaWindows.jpg)
 
 ## Description
 
@@ -93,10 +94,9 @@ The interface uses a text-based approach with colors and ASCII art for better re
 
 ---
 
-## Screenshots
-
-
-
+## Captures
+![Application Screenshot](assets/SS1AlivianaWindows1.2.png)
+![Application Screenshot](assets/SS2AlivianaWindows1.2.png)
 ---
 
 ## Development and Contribution
