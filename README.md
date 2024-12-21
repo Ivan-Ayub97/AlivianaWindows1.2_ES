@@ -1,124 +1,127 @@
 # AlivianaWindows
 
-**Version: 1.2**
+**Versión: 1.2**
 
-Developed by **Iván Ayub**
+Desarrollado por **Iván Ayub**
 
-**AlivianaWindows** is an all-in-one tool designed to optimize the performance and health of Windows systems. It combines essential maintenance commands with a user-friendly console-based interface to simplify system care and management.
+**AlivianaWindows** es una herramienta todo en uno diseñada para optimizar el rendimiento y la salud de los sistemas Windows. Combina comandos esenciales de mantenimiento con una interfaz basada en consola fácil de usar, para simplificar el cuidado y la gestión del sistema.
 
-[Click here to download the application from Google Drive (.zip)](https://drive.google.com/file/d/1rH1N3V4qNefDXG0qIn2aAW1EDLhYPMH7/view?usp=drive_link)
+[Haz clic aquí para descargar la aplicación desde Google Drive (.zip)](https://drive.google.com/file/d/1rH1N3V4qNefDXG0qIn2aAW1EDLhYPMH7/view?usp=drive_link)
 
-For inquiries or feedback, contact me at: [sellocasadenubes@gmail.com](sellocasadenubes@gmail.com).
-
----
-![NextMask FFmpeg Icon](assets/AlivianaWindows.jpg)
-
-## Description
-
-**AlivianaWindows** provides a categorized list of essential commands to keep your Windows system in optimal condition. It is ideal for users seeking to improve system stability, resolve issues, and maintain performance with minimal effort.
+Para consultas o comentarios, contáctame en: [sellocasadenubes@gmail.com](sellocasadenubes@gmail.com).
 
 ---
+![Ícono NextMask FFmpeg](assets/AlivianaWindows.jpg)
 
-## Features
+## Descripción
 
-### **System Maintenance:**
-
-- Scans and repairs system files.
-- Checks and repairs hard drives.
-- Defragments disks to improve performance.
-
-### **Network Administration:**
-
-- Displays network configurations.
-- Clears DNS cache.
-- Verifies network connectivity with ping.
-
-### **Process Management:**
-
-- Displays running processes.
-- Terminates unnecessary processes.
-
-### **Boot Repair:**
-
-- Repairs the Master Boot Record (MBR).
-- Rebuilds the BCD (Boot Configuration Data).
-
-### **Miscellaneous Tools:**
-
-- Resets Microsoft Store.
-- Enables or disables hibernation.
-
-### **Interactive Interface:**
-
-- Categorized commands for easy navigation.
-- Clear prompts to execute tasks.
+**AlivianaWindows** proporciona una lista categorizada de comandos esenciales para mantener tu sistema Windows en óptimas condiciones. Es ideal para usuarios que buscan mejorar la estabilidad del sistema, resolver problemas y mantener el rendimiento con el menor esfuerzo posible.
 
 ---
 
-## Usage Instructions
+## Características
 
-1. **Run the program** as an administrator.
-2. **Select a category** from the menu.
-3. **Enter the command number** to execute.
-4. **Follow the on-screen instructions** and check the results.
-5. Type `exit` to close the program.
+### **Mantenimiento del Sistema:**
 
-### Example Scenario
+- Escanea y repara archivos del sistema.
+- Verifica y repara discos duros.
+- Desfragmenta discos para mejorar el rendimiento.
 
-Want to ensure your system files are in top condition?
-Open AlivianaWindows, select "System Maintenance," and run the "sfc /scannow" command to scan and repair corrupted files.
+### **Administración de Red:**
+
+- Muestra configuraciones de red.
+- Limpia la caché de DNS.
+- Verifica la conectividad de red con ping.
+
+### **Gestión de Procesos:**
+
+- Muestra los procesos en ejecución.
+- Termina procesos innecesarios.
+
+### **Reparación de Arranque:**
+
+- Repara el Master Boot Record (MBR).
+- Reconstruye el BCD (Boot Configuration Data).
+
+### **Herramientas Variadas:**
+
+- Restablece la Microsoft Store.
+- Habilita o deshabilita la hibernación.
+
+### **Interfaz Interactiva:**
+
+- Comandos categorizados para una fácil navegación.
+- Indicaciones claras para ejecutar tareas.
 
 ---
 
-## Application Structure
+## Instrucciones de Uso
 
-### **User Interface (UI):**
+1. **Ejecuta el programa** como administrador.
+2. **Selecciona una categoría** desde el menú.
+3. **Ingresa el número del comando** para ejecutarlo.
+4. **Sigue las instrucciones en pantalla** y revisa los resultados.
+5. Escribe `exit` para cerrar el programa.
 
-The interface uses a text-based approach with colors and ASCII art for better readability, utilizing the **`pyfiglet`** and **`termcolor`** libraries.
+### Ejemplo de Escenario
 
-### **Main Modules:**
-
-1. **Command Execution:** Runs system maintenance commands using subprocess.
-2. **Menu Navigation:** Organizes commands into intuitive categories.
-3. **Error Handler:** Displays informative messages for successful or failed executions.
+¿Quieres asegurarte de que tus archivos del sistema estén en óptimas condiciones?
+Abre AlivianaWindows, selecciona "Mantenimiento del Sistema" y ejecuta el comando "sfc /scannow" para escanear y reparar archivos corruptos.
 
 ---
 
-## System Requirements
+## Estructura de la Aplicación
 
-- **Operating System:** Windows 10 or later
-- **Dependencies:**
+### **Interfaz de Usuario (UI):**
+
+La interfaz utiliza un enfoque basado en texto con colores y arte ASCII para mejorar la legibilidad, utilizando las librerías **`pyfiglet`** y **`termcolor`**.
+
+### **Módulos Principales:**
+
+1. **Ejecución de Comandos:** Ejecuta comandos de mantenimiento del sistema utilizando subprocess.
+2. **Navegación del Menú:** Organiza los comandos en categorías intuitivas.
+3. **Manejador de Errores:** Muestra mensajes informativos sobre ejecuciones exitosas o fallidas.
+
+---
+
+## Requisitos del Sistema
+
+- **Sistema Operativo:** Windows 10 o posterior
+- **Dependencias:**
   - Python 3.10+
   - `pyfiglet`
   - `termcolor`
 
 ---
 
-## Captures
-![Application Screenshot](assets/SS1AlivianaWindows1.2.png)
-![Application Screenshot](assets/SS2AlivianaWindows1.2.png)
+## Capturas
+![Captura de la Aplicación](assets/SS1AlivianaWindows1.2.png)
+![Captura de la Aplicación](assets/SS2AlivianaWindows1.2.png)
 ---
 
-## Development and Contribution
+## Desarrollo y Contribución
 
-### **Credits:**
+### **Créditos:**
 
-This software leverages the following libraries:
+Este software utiliza las siguientes bibliotecas:
 
-- **`pyfiglet`**: For ASCII art text.
-- **`termcolor`**: For terminal text coloring.
+- **`pyfiglet`**: Para arte de texto en ASCII.
+- **`termcolor`**: Para colorear texto en terminal.
 
-Special thanks to Microsoft for providing official documentation on system commands.
+Agradecimientos especiales a Microsoft por proporcionar documentación oficial sobre los comandos del sistema.
 
-### **Contributions:**
+### **Contribuciones:**
 
-We welcome contributions! To contribute:
+¡Te damos la bienvenida para que contribuyas! Para hacerlo:
 
-1. Fork the repository.
-2. Make your changes.
-3. Submit a pull request.
+1. Haz un fork del repositorio.
+2. Realiza tus cambios.
+3. Envía un pull request.
 
 ---
 
-Enjoy using **AlivianaWindows**! Your feedback is invaluable and helps us continuously improve.
+¡Disfruta usando **AlivianaWindows**! Tu retroalimentación es invaluable y nos ayuda a mejorar continuamente.
 
+--- 
+
+¡Espero que te sirva!
