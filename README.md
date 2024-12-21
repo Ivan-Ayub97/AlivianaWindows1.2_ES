@@ -8,7 +8,7 @@ Developed by **Iván Ayub**
 
 [Click here to download the application from Google Drive (.zip)](https://drive.google.com/file/d/1rH1N3V4qNefDXG0qIn2aAW1EDLhYPMH7/view?usp=drive_link)
 
-For inquiries or feedback, contact me at: [Iván Ayub](sellocasadenubes@gmail.com).
+For inquiries or feedback, contact me at: [sellocasadenubes@gmail.com](sellocasadenubes@gmail.com).
 
 ---
 ![NextMask FFmpeg Icon](assets/AlivianaWindows.jpg)
