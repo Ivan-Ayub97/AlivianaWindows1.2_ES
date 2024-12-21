@@ -1,0 +1,127 @@
+# AlivianaWindows
+
+**Versión: 1.2**
+
+Desarrollado por **Iván Ayub**
+
+**AlivianaWindows** es una herramienta integral diseñada para optimizar el rendimiento y la salud de sistemas Windows. Combina comandos esenciales de mantenimiento con una interfaz amigable basada en consola para simplificar el cuidado y la gestión del sistema.dAMEga
+
+[Haz clic aquí para descargar la aplicación (.zip)](https://example.com/download)
+
+Para consultas o comentarios, contáctame en: [Iván Ayub](mailto\:ivan.ayub@example.com).
+
+
+
+---
+
+## Descripción
+
+**AlivianaWindows** proporciona una lista categorizada de comandos esenciales para mantener tu sistema Windows en óptimas condiciones. Es ideal para usuarios que buscan mejorar la estabilidad del sistema, resolver problemas y mantener el rendimiento con el mínimo esfuerzo.
+
+---
+
+## Características
+
+### **Mantenimiento del Sistema:**
+
+- Escanea y repara archivos del sistema.
+- Verifica y repara discos duros.
+- Desfragmenta discos para mejorar el rendimiento.
+
+### **Administración de Redes:**
+
+- Muestra configuraciones de red.
+- Limpia la caché DNS.
+- Verifica conectividad de red con ping.
+
+### **Gestión de Procesos:**
+
+- Muestra procesos en ejecución.
+- Finaliza procesos innecesarios.
+
+### **Reparación de Arranque:**
+
+- Repara el Master Boot Record (MBR).
+- Reconstruye el BCD (Boot Configuration Data).
+
+### **Herramientas Variadas:**
+
+- Restablece Microsoft Store.
+- Activa o desactiva la hibernación.
+
+### **Interfaz Interactiva:**
+
+- Comandos categorizados para una navegación sencilla.
+- Indicaciones claras para ejecutar tareas.
+
+---
+
+## Instrucciones de Uso
+
+1. **Ejecuta el programa** como administrador.
+2. **Selecciona una categoría** del menú.
+3. **Ingresa el número del comando** a ejecutar.
+4. **Sigue las instrucciones** en pantalla y revisa los resultados.
+5. Escribe `exit` para cerrar el programa.
+
+### Ejemplo de Escenario
+
+¿Quieres asegurarte de que los archivos del sistema estén en óptimas condiciones?
+Abre AlivianaWindows, selecciona "Mantenimiento del Sistema" y ejecuta el comando "sfc /scannow" para escanear y reparar archivos corruptos.
+
+---
+
+## Estructura de la Aplicación
+
+### **Interfaz de Usuario (UI):**
+
+La interfaz utiliza un enfoque basado en texto con colores y ASCII art para mejorar la legibilidad, empleando las bibliotecas **`pyfiglet`** y **`termcolor`**.
+
+### **Módulos Principales:**
+
+1. **Ejecución de Comandos:** Ejecuta comandos de mantenimiento del sistema mediante subprocess.
+2. **Navegación de Menú:** Organiza los comandos en categorías intuitivas.
+3. **Gestor de Errores:** Muestra mensajes informativos para ejecuciones exitosas o fallidas.
+
+---
+
+## Requisitos del Sistema
+
+- **Sistema Operativo:** Windows 10 o posterior
+- **Dependencias:**
+  - Python 3.10+
+  - `pyfiglet`
+  - `termcolor`
+
+---
+
+## Capturas
+
+
+
+
+---
+
+## Desarrollo y Contribución
+
+### **Créditos:**
+
+Este software aprovecha las siguientes bibliotecas:
+
+- **`pyfiglet`****:** Para texto en arte ASCII.
+- **`termcolor`****:** Para coloración de texto en la terminal.
+
+Agradecimientos especiales a Microsoft por proporcionar documentación oficial sobre comandos del sistema.
+
+### **Contribuciones:**
+
+¡Aceptamos contribuciones! Para contribuir:
+
+1. Haz un fork del repositorio.
+2. Realiza tus cambios.
+3. Envía un pull request.
+
+---
+
+¡Disfruta usando **AlivianaWindows**! Tu retroalimentación es invaluable y nos ayuda a mejorar continuamente.
+
