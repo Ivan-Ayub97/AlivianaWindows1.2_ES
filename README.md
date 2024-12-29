@@ -11,7 +11,7 @@ Desarrollado por **Iván Ayub**
 Para consultas o comentarios, contáctame en: [sellocasadenubes@gmail.com](sellocasadenubes@gmail.com).
 
 ---
-![Ícono NextMask FFmpeg](assets/AlivianaWindows.jpg)
+![Ícono AlivianaWindows1.2](assets/AlivianaWindows.jpg)
 
 ## Descripción
 
